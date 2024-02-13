@@ -1,0 +1,62 @@
+body {
+    background-color: #800080;
+    background-image: url("background.png");
+  }
+  .button1 {
+    background-color: #EA4C89;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    height: 40px;
+    line-height: 20px;
+    list-style: none;
+    margin: 0;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button1:hover,
+  .button1:focus {
+    background-color: #F082AC;
+  }
+  
+  
+  .Centro {
+    grid-area: span;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    border: 3px solid #800080;
+    padding: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-size: 20px;
+    color: #000000;
+    box-shadow: 2px 2px 5px #888888;
+    border-radius: 25px;
+    
+  }
+  
+
+ 
+  /* CSS */
+ 
